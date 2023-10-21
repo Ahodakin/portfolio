@@ -1,0 +1,111 @@
+<main id="main">
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+      
+              <div class="row" data-aos="fade-up">
+                <div class="col-lg-12 d-flex justify-content-center">
+                  <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">Tous</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Travail</li>
+                    <li data-filter=".filter-web">Loisir</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="row portfolio-container" data-aos="fade-up">
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="{{ asset('front_end/assets/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 1</h4>
+                    <p>App</p>
+                    <a href="{{ asset('front_end/assets/img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                    {{-- <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a> --}}
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <img src="{{ asset('front_end/assets/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Loisir 3</h4>
+                    <p>Loisir</p>
+                    <a href="{{ asset('front_end/assets/img/portfolio/portfolio-2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Loisir 3"><i class="bx bx-plus"></i></a>
+                    {{-- <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a> --}}
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="{{ asset('front_end/assets/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 2</h4>
+                    <p>App</p>
+                    <a href="{{ asset('front_end/assets/img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                    {{-- <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a> --}}
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                  <img src="{{ asset('front_end/assets/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Travail 1</h4>
+                    <p>Travail</p>
+                    <a href="{{ asset('front_end/assets/img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Queen 1"><i class="bx bx-plus"></i></a>
+                    {{-- <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a> --}}
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <img src="{{ asset('front_end/assets/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Loisir 2</h4>
+                    <p>Loisir</p>
+                    <a href="{{ asset('front_end/assets/img/portfolio/portfolio-5.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Loisir 2"><i class="bx bx-plus"></i></a>
+                    {{-- <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a> --}}
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="{{ asset('front_end/assets/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 3</h4>
+                    <p>App</p>
+                    <a href="{{ asset('front_end/assets/img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                  <img src="{{ asset('front_end/assets/img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Travail 2</h4>
+                    <p>Travail</p>
+                    <a href="{{ asset('front_end/assets/img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Queen 2"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                  <img src="{{asset('front_end/assets/img/portfolio/portfolio-8.jpg')}}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Travail 3</h4>
+                    <p>Travail</p>
+                    <a href="{{asset('front_end/assets/img/portfolio/portfolio-8.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Queen 3"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <img src="{{asset('front_end/assets/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Loisir 3</h4>
+                    <p>Loisir</p>
+                    <a href="{{asset('front_end/assets/img/portfolio/portfolio-9.')}}jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Loisir 3"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+          </section><!-- End Portfolio Section -->
+
+</main>
